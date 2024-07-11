@@ -13,4 +13,4 @@ COPY . .
 WORKDIR /app
 
 # Run
-ENTRYPOINT [“streamlit”, “run”, “app_p1.py”, “–server.port=8082”, “–server.address=0.0.0.0”]
+ENTRYPOINT [“streamlit”, “run”, “app_p2.py”, “–server.port=8082”, “–server.address=0.0.0.0”]
