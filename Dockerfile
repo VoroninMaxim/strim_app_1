@@ -1,6 +1,6 @@
 FROM python:3.12
 
-USER root
+#USER root
 # Expose port you want your app on
 EXPOSE 8501
 
@@ -18,4 +18,4 @@ COPY . .
 # Run
 ENTRYPOINT ["streamlit", "run", "app_p2.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
-USER jenkins
+#USER jenkins
